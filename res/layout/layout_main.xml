@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@+id/etTargetAddr" android:hint="@string/targetAddr"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etStartPort" android:layout_weight="1"
+            android:hint="@string/startPort" android:inputType="number"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:text="--"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/etEndPort" android:layout_weight="1"
+            android:hint="@string/endPort" android:inputType="number"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button android:id="@+id/btnStart" android:text="@string/start"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@+id/tvResult" android:layout_weight="1"
+        android:scrollbars="vertical" android:scrollbarStyle="insideOverlay"
+        android:scrollbarDefaultDelayBeforeFade="2000"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

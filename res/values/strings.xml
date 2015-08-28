@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PortScanner</string>
+    <string name="targetAddr">目标地址</string>
+    <string name="startPort">Start Port</string>
+    <string name="endPort">End Port</string>
+    <string name="start">开始</string>
+</resources>
